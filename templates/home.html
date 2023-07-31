@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Credit Score Classification</title>
+</head>
+
+<body>
+    <h2>Fill out the form:</h2>
+    <form action="/predict" method="POST">
+        <label for="Age">Age of the customer:</label>
+        <input type="text" id="Age" name="Age"><br>
+
+        <label for="Occupation">Occupation of the customer:</label>
+        <input type="text" id="Occupation" name="Occupation"><br>
+
+        <label for="Annual_Income">Annual Income of the customer:</label>
+        <input type="text" id="Annual_Income" name="Annual_Income"><br>
+
+        <label for="Monthly_Inhand_Salary">Monthly Inhand Salary of the customer:</label>
+        <input type="text" id="Monthly_Inhand_Salary" name="Monthly_Inhand_Salary"><br>
+
+        <label for="Num_Bank_Accounts">Number of Bank_Accounts of the customer:</label>
+        <input type="text" id="Num_Bank_Accounts" name="Num_Bank_Accounts"><br>
+
+        <label for="Num_Credit_Card">Number of Credit Cards the customer has:</label>
+        <input type="text" id="Num_Credit_Card" name="Num_Credit_Card"><br>
+
+        <label for="Interest_Rate">Interest rate:</label>
+        <input type="text" id="Interest_Rate" name="Interest_Rate"><br>
+
+        <label for="Num_of_Loan">Number of Loans the customer has taken:</label>
+        <input type="text" id="Num_of_Loan" name="Num_of_Loan"><br>
+
+        <label for="Type_of_Loan">Type of Loans the customer has:</label>
+        <input type="text" id="Type_of_Loan" name="Type_of_Loan"><br>
+
+        <label for="Delay_from_due_date">Delay from the due date:</label>
+        <input type="text" id="Delay_from_due_date" name="Delay_from_due_date"><br>
+
+        <label for="Num_of_Delayed_Payment">Num_of_Delayed_Payment the customer has:</label>
+        <input type="text" id="Num_of_Delayed_Payment" name="Num_of_Delayed_Payment"><br>
+
+        <label for="Changed_Credit_Limit">Changed_Credit_Limit the customer has:</label>
+        <input type="text" id="Changed_Credit_Limit" name="Changed_Credit_Limit"><br>
+
+        <label for="Num_Credit_Inquiries">Num_Credit_Inquiries the customer has:</label>
+        <input type="text" id="Num_Credit_Inquiries" name="Num_Credit_Inquiries"><br>
+
+        <label for="Credit_Mix">Credit_Mix the customer has:</label>
+        <input type="text" id="Credit_Mix" name="Credit_Mix"><br>
+
+        <label for="Outstanding_Debt">Outstanding_Debt the customer has:</label>
+        <input type="text" id="Outstanding_Debt" name="Outstanding_Debt"><br>
+
+        <label for="Credit_Utilization_Ratio">Credit_Utilization_Ratio the customer has:</label>
+        <input type="text" id="Credit_Utilization_Ratio" name="Credit_Utilization_Ratio"><br>
+
+        <label for="Credit_History_Age">Credit_History_Age in months the customer has:</label>
+        <input type="text" id="Credit_History_Age" name="Credit_History_Age"><br>
+
+        <label for="Payment_of_Min_Amount">Payment_of_Min_Amount the customer has:</label>
+        <input type="text" id="Payment_of_Min_Amount" name="Payment_of_Min_Amount"><br>
+
+        <label for="Total_EMI_per_month">Total_EMI_per_month the customer has:</label>
+        <input type="text" id="Total_EMI_per_month" name="Total_EMI_per_month"><br>
+
+        <label for="Amount_invested_monthly">Amount_invested_monthly the customer has:</label>
+        <input type="text" id="Amount_invested_monthly" name="Amount_invested_monthly"><br>
+
+        <label for="Payment_Behaviour">Payment_Behaviour the customer has:</label>
+        <input type="text" id="Payment_Behaviour" name="Payment_Behaviour"><br>
+
+        <label for="Monthly_Balance">Monthly_Balance the customer has:</label>
+        <input type="text" id="Monthly_Balance" name="Monthly_Balance"><br>
+
+
+        <button type="submit" value="Hit the button for prediction"> Predict</button>
+    </form>
+    {{prediction_text}}
+</body>
+
+</html>
