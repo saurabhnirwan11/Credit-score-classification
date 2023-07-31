@@ -18,6 +18,7 @@ The credit score of a person determines the creditworthiness of the person. It h
 - [Model Training](#model-training)
 - [Evaluation](#evaluation)
 - [Results](#results)
+- [Web_App](#Web_App)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -68,6 +69,17 @@ To evaluate the trained models:
 ## Results
 
 The final model's performance and evaluation metrics will be available in the `results` directory. Additionally, the Jupyter notebooks in the `notebooks` directory provide a detailed analysis of the project.
+
+## Web_App
+
+This project also includes a web application built using Flask, which allows users to input their financial information and get their predicted credit score. The web app provides a user-friendly interface to interact with the trained credit score classifier.
+
+To run the web app locally:
+
+1. Ensure you have all the project dependencies installed.
+2. Run the Flask app using the command `python app.py`.
+3. Access the web app through your web browser at `http://127.0.0.1:5000`.
+
 
 ## Contributing
 
