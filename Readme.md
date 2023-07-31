@@ -47,7 +47,7 @@ The project offers the following features:
 1. Data Preprocessing: Clean and preprocess the dataset to handle missing values and prepare it for machine learning models.
 2. Feature Engineering: Extract relevant features and perform necessary transformations to enhance model performance.
 3. Model Selection: Experiment with different classification algorithms like Random Forest, Logistic Regression, etc.
-4. Model Evaluation: Evaluate models using various metrics like accuracy, precision, recall, F1-score, and ROC-AUC to assess performance.
+4. Model Evaluation: Evaluate models using various metrics like accuracy, precision, recall,  and F1-score to assess performance.
 5. Hyperparameter Tuning: Optimize model performance by tuning hyperparameters using techniques like Grid Search.
 6. Model Deployment: Deploy the best performing model for real-world predictions.
 
@@ -55,7 +55,7 @@ The project offers the following features:
 
 To train the credit score classification model:
 
-1. Run the script `train.py` to train the models using the training data.
+1. Run the script `train.py` to train the models using the training data. Note : Clean the training data using `Credit-score-classification(Data Prep).ipynb` or use the `Data/cleaned_train.csv`.
 2. The script will automatically save the trained models in the `models` directory.
 
 ## Evaluation
